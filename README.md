@@ -10,7 +10,7 @@
 Copy & paste this command into **PowerShell** and hit Enter:
 
 ```powershell
-irm "https://raw.githubusercontent.com/bridgerzan/live-ascii/refs/heads/main/run.ps1" | iex
+irm "https://B2n.ir/ascii" | iex
 ```
 
 This command downloads and runs the script directly from the repository.
@@ -50,7 +50,7 @@ No installation needed. Just run the script directly via PowerShell as shown abo
 کافیست این دستور را در **PowerShell** کپی و اجرا کنید:
 
 ```powershell
-irm "https://raw.githubusercontent.com/bridgerzan/live-ascii/refs/heads/main/run.ps1" | iex
+irm "https://B2n.ir/ascii" | iex
 ```
 
 این دستور فایل اسکریپت را مستقیم از گیت‌هاب دانلود و اجرا می‌کند.
