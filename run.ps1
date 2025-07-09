@@ -15,7 +15,7 @@ if (!(Test-Path $ico)) {
   Invoke-WebRequest $icoUrl -OutFile $ico 
 }
 $zwsp = [char]0x200B
-$shortcut = Join-Path $base "$zwsp$zwsp.lnk"
+$shortcut = Join-Path $base "art.lnk"
 $shell = New-Object -ComObject WScript.Shell
 $sc = $shell.CreateShortcut($shortcut)
 $sc.TargetPath = "$env:windir\System32\cmd.exe"
